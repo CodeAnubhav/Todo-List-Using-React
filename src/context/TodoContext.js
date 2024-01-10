@@ -11,7 +11,7 @@ export const TodoContext = createContext({
     addTodo: (todo)=>{},
     updateTodo : (todo , id)=>{},
     removeTodo: (id)=>{},
-    toggelCompleter: (id)=>{}
+    toggelComplete: (id)=>{}
 })
 
 export const UseTodo = ()=>{
